@@ -72,6 +72,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="DIP\Without\" />
+    <Folder Include="DIP\With\" />
     <Folder Include="LSP\With\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
